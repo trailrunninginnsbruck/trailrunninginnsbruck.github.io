@@ -176,7 +176,7 @@ L.control.scale({
 const controlElevation2 = L.control.elevation({
     theme: "bike-tirol",
     time: false,
-    elevationDiv: "#profile",
+    elevationDiv: "#profile2",
     heigth: 300,
     //slope: true,
 }).addTo(map2);
@@ -186,8 +186,8 @@ const controlElevation2 = L.control.elevation({
 controlElevation2.load("data/gpx/test.gpx");
 
 //Minnimap
-var gkTirol = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
-var miniMap = new L.Control.MiniMap(gkTirol, {
+var gkTirol2 = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
+var miniMap2 = new L.Control.MiniMap(gkTirol, {
     toggleDisplay: true, 
 
 }).addTo(map2);
