@@ -104,7 +104,7 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
 
 //auf Änderungen beim Pulldown reagieren
 document.querySelector("#pulldown select").onchange = function(evt) {
-    let url = `https://trailrunninginnsbruck.github.io/startseite/${evt.target.value}/`;
+    let url = `https://trailrunninginnsbruck.github.io/${evt.target.value}/`;
     console.log(url);
     //console.log(evt.target.value);
     window.location = url;
