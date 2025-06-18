@@ -6,7 +6,7 @@ let nockspitze = {
     lng:  11.325
 };
 // WMTS Hintergrundlayer der eGrundkarte Tirol
- const eGrundkarteTirol = {
+ /*const eGrundkarteTirol = {
     sommer: L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png", {
         attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
     }),
@@ -22,7 +22,7 @@ let nockspitze = {
         attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`,
         pane: "overlayPane",
     })
-};
+};*/
 
 // Karte initialisieren
 let map = L.map("map", {
@@ -33,7 +33,7 @@ let map = L.map("map", {
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
-    "eGrundkarte Tirol Sommer": L.layerGroup([
+    /*"eGrundkarte Tirol Sommer": L.layerGroup([
         eGrundkarteTirol.sommer,
         eGrundkarteTirol.nomenklatur
     ]).addTo(map),
@@ -44,7 +44,7 @@ L.control.layers({
     "eGrundkarte Tirol Orthofoto": L.layerGroup([
         eGrundkarteTirol.ortho,
         eGrundkarteTirol.nomenklatur,
-    ]),
+    ]),*/
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
 }).addTo(map);
@@ -111,7 +111,7 @@ let map2 = L.map("map2", {
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
-    "eGrundkarte Tirol Sommer": L.layerGroup([
+    /*"eGrundkarte Tirol Sommer": L.layerGroup([
         eGrundkarteTirol.sommer,
         eGrundkarteTirol.nomenklatur
     ]).addTo(map2),
@@ -122,7 +122,7 @@ L.control.layers({
     "eGrundkarte Tirol Orthofoto": L.layerGroup([
         eGrundkarteTirol.ortho,
         eGrundkarteTirol.nomenklatur,
-    ]),
+    ]),*/
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
 }).addTo(map2);
