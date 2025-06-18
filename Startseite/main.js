@@ -8,7 +8,7 @@ let stop ={
     user: "innsbruck",
     lat: 47.267222,
     lng: 11.392778,
-    zoom: 13,
+    zoom: 10,
 };
 
 const STOPS = [
@@ -45,14 +45,6 @@ const STOPS = [
         runde_2: "Nockspitze Runde 2",
         runde_3: "Nockspitze Runde 3",
     },
-    {
-         nr: 1,
-    title: "Innsbruck",
-    user: "innsbruck",
-    lat: 47.267222,
-    lng: 11.392778,
-    zoom: 10,
-    },
 ];
 
 console.log(STOPS)
@@ -68,8 +60,8 @@ let overlays = {
 
 //Layercontrol
 L.control.layers({
-    "OpenStreetMap.Mapnik": L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map),
-    "OpenTopoMap": L.tileLayer.provider('OpenTopoMap'),
+    "OpenStreetMap.Mapnik": L.tileLayer.provider('OpenStreetMap.Mapnik'),
+    "OpenTopoMap": L.tileLayer.provider('OpenTopoMap').addTo(map),
     "Esri.WorldImagery": L.tileLayer.provider('Esri.WorldImagery'),
 }, {
     "Etappen": overlays.marker,
@@ -97,12 +89,8 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
         </ul>
     `);
 
-    //auf eigene Etappe Blicken und Popup öffnen
-if (STOPS[i].user == "innsbruck") {
-    console.log("meine Etappe :-)")
-    map.setView([STOPS[i].lat, STOPS[i].lng], STOPS[i].zoom);
-    marker .openPopup();
-    }
+    //auf alle Regionen zoomen
+    map.setView([stop.lat, stop.lng], stop.zoom);
 
     //Pulldownmenü befüllen
     let option =  document.createElement("option");
