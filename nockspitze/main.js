@@ -102,7 +102,7 @@ var miniMap = new L.Control.MiniMap(gkTirol, {
 
 // Zweite map
 
-/ Karte initialisieren
+// Karte initialisieren
 let map2 = L.map("map2", {
     fullscreenControl: true,
 }).setView([nockspitze.lat, nockspitze.lng], 11);
@@ -173,7 +173,7 @@ L.control.scale({
 //}
 
 // Instantiate elevation control
-const controlElevation = L.control.elevation({
+const controlElevation2 = L.control.elevation({
     theme: "bike-tirol",
     time: false,
     elevationDiv: "#profile",
