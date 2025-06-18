@@ -6,7 +6,7 @@ let nockspitze = {
     lng:  11.325
 };
 // WMTS Hintergrundlayer der eGrundkarte Tirol
-let eGrundkarteTirol = {
+const eGrundkarteTirol = {
     sommer: L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png", {
         attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
     }),
