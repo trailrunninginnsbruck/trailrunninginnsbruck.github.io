@@ -183,7 +183,7 @@ const controlElevation2 = L.control.elevation({
 
 
 // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
-controlElevation.load("data/gpx/test.gpx");
+controlElevation2.load("data/gpx/test.gpx");
 
 //Minnimap
 var gkTirol = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
