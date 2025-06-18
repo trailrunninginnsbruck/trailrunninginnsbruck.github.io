@@ -7,15 +7,23 @@
 
     <title>Trailrunning Innsbruck</title>
     <link rel="shortcut icon" href="images/user.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script defer src="main.js"></script>
 
     <!-- Leaflet providers-->
     <script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"></script>
+
+    <!-- Leaflet Velocity Link-->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-velocity@2.1.4/dist/leaflet-velocity.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/leaflet-velocity@2.1.4/dist/leaflet-velocity.min.css" rel="stylesheet">
 
     <!-- eigenes-->
     <link rel="stylesheet" href="main.css">
@@ -25,44 +33,81 @@
 
 <body>
     <h1>Trailrunning Innsbruck</h1>
-   <p> <strong><em>Auckland</em></strong> [ˈɔːklənd], offizielle Bezeichnung Auckland Council, auf <em>Māori</em> : Tāmaki Makaurau oder Ākarana, ist eine Großstadt und zugleich Unitary Authority auf der Nordinsel von Neuseeland. Mit über 1,4 Millionen Einwohnern ist sie die größte Stadt Neuseelands, in der etwa ein Drittel der neuseeländischen Bevölkerung lebt.[4] Die Māori-Bezeichnung Tāmaki Makaurau bedeutet „Eine junge Schönheit mit 100 Liebhabern“, während Ākarana eine an den Lautstand des Māori angepasste Version von „Auckland“ ist.[5]</p>
-            <p>Das landschaftliche Bild des multikulturellen Auckland wird von 53 inaktiven Vulkanen geprägt, zwischen denen sich die Großstadt erstreckt.[6] Ihnen verdankt die Stadt weitläufige Parkanlagen, die bis ins Zentrum hineinreichen. Die Lage an geschützten Meeresbuchten trägt ebenfalls wesentlich zum Bild Aucklands bei, nicht zuletzt durch die zahlreichen Segelboote, die der Stadt den Beinamen City of Sails einbrachte.</p>
-            <p>Zum 1. November 2010 wurde aus dem Ballungsraum Auckland (englisch: Greater Auckland bzw. Auckland Metropolitan Area), mit den bis dahin verwaltungstechnisch eigenständigen Städten Auckland City, Manukau City, North Shore City und Waitakere City, den Distrikten Franklin District, Papakura District und Rodney District und dem Auckland Regional Council, der Auckland Council gebildet, der, wie geplant, die Probleme des Großraums Auckland aus einer einheitlichen und zentral organisierten Verwaltungsstruktur heraus lösen soll. Der Auckland Council wurde per Kommunalwahl vom 9. Oktober 2010 politisch legitimiert und fasst seitdem alle vorherigen <em><strong>Verwaltungseinheiten</strong></em> unter der Regierung von einem Bürgermeister und 20 Stadträten zusammen.</p>
-            <p>In einer Rangliste der Städte mit der höchsten Lebensqualität weltweit belegte Auckland im Jahre 2018 den dritten Platz.[7]</p>
-            Quelle <a href="https://de.wikipedia.org/wiki/Auckland"> Wikipedia</a>
+    <p> <strong><em>Auckland</em></strong> [ˈɔːklənd], offizielle Bezeichnung Auckland Council, auf <em>Māori</em> :
+        Tāmaki Makaurau oder Ākarana, ist eine Großstadt und zugleich Unitary Authority auf der Nordinsel von
+        Neuseeland. Mit über 1,4 Millionen Einwohnern ist sie die größte Stadt Neuseelands, in der etwa ein Drittel der
+        neuseeländischen Bevölkerung lebt.[4] Die Māori-Bezeichnung Tāmaki Makaurau bedeutet „Eine junge Schönheit mit
+        100 Liebhabern“, während Ākarana eine an den Lautstand des Māori angepasste Version von „Auckland“ ist.[5]</p>
+    <p>Das landschaftliche Bild des multikulturellen Auckland wird von 53 inaktiven Vulkanen geprägt, zwischen denen
+        sich die Großstadt erstreckt.[6] Ihnen verdankt die Stadt weitläufige Parkanlagen, die bis ins Zentrum
+        hineinreichen. Die Lage an geschützten Meeresbuchten trägt ebenfalls wesentlich zum Bild Aucklands bei, nicht
+        zuletzt durch die zahlreichen Segelboote, die der Stadt den Beinamen City of Sails einbrachte.</p>
+    <p>Zum 1. November 2010 wurde aus dem Ballungsraum Auckland (englisch: Greater Auckland bzw. Auckland Metropolitan
+        Area), mit den bis dahin verwaltungstechnisch eigenständigen Städten Auckland City, Manukau City, North Shore
+        City und Waitakere City, den Distrikten Franklin District, Papakura District und Rodney District und dem
+        Auckland Regional Council, der Auckland Council gebildet, der, wie geplant, die Probleme des Großraums Auckland
+        aus einer einheitlichen und zentral organisierten Verwaltungsstruktur heraus lösen soll. Der Auckland Council
+        wurde per Kommunalwahl vom 9. Oktober 2010 politisch legitimiert und fasst seitdem alle vorherigen
+        <em><strong>Verwaltungseinheiten</strong></em> unter der Regierung von einem Bürgermeister und 20 Stadträten
+        zusammen.</p>
+    <p>In einer Rangliste der Städte mit der höchsten Lebensqualität weltweit belegte Auckland im Jahre 2018 den dritten
+        Platz.[7]</p>
+    Quelle <a href="https://de.wikipedia.org/wiki/Auckland"> Wikipedia</a>
 
-             <!--<figure>
+    <!--<figure>
                 <img src="images/attraction.jpg" alt="skyline">
                 <https://pixabay.com/de/photos/neuseeland-skyline-auckland-73230/ 
                 <figcaption> <i class="fa-solid fa-camera-retro"></i> Blick auf die Skyline von Auckland (Quelle <a href="https://pixabay.com/de/photos/neuseeland-skyline-auckland-73230/"> Bild</a>) </figcaption>
             </figure>-->
-    
-            <h3> <i class="fa-solid fa-map"></i> Übersichtskarte</h3>
-            <div id="map"></div>
-            <div id="pulldown">
-                <select>
-                    
-                </select>
 
-            </div>
+    <h3> <i class="fa-solid fa-map"></i> Übersichtskarte</h3>
+    <div id="map"></div>
+    <div id="pulldown">
+        <select>
 
-            <h3> <i class="fa-solid fa-link"></i> Links</h3>
-            <ul>
-                <li><a href="https://www.getyourguide.de/-l822/?cmp=bing&cmp=bing&ad_id=77790640060661&adgroup_id=1244647773135650&bid_match_type=be&campaign_id=434041557&device=c&feed_item_id=&keyword=auckland%20nz&loc_interest_ms=180858&loc_physical_ms=146440&match_type=e&msclkid=bac55d8ddc4311a03ff73a4406618a17&network=o&partner_id=CD951&target_id=kwd-77790883949384&utm_adgroup=lc%3D822%3Aauckland%7Cfn%3Df3%7Cci%3D937%3Athings%20to%20do&utm_campaign=dc%3D7%3Anz%7Clc%3D822%3Aauckland%7Cct%3Dcore%7Cln%3D39%3Ade%7Ctc%3Dall&utm_keyword=auckland%20nz&utm_medium=paid_search&utm_query=auckland&utm_source=bing">Get your Guide Auckland</a></li>
-                <li><a href="https://www.tripadvisor.de/SmartDeals-g1811027-Auckland_North_Island-Hotel-Deals.html">Tripadvisor</a> </li>
-                <li><a href="https://go.fluege.de/?msclkid=62b6861fb2ba1513fcc8e1d668d38e68&utm_campaign=neu_asien_australien-ozeanien&utm_medium=cpc&utm_source=bing&utm_content=auckland&user-id=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJlNmU2NDI1Yy03ZTMyLTRjNGQtYjU2NS1lMWQ2ZDExZmU4NDEiLCJpc3MiOiJ3ZWItYXBwIiwiaXAiOiI6OmZmZmY6MTAwLjEwOS4yNDcuMTg5IiwidXNlckFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMy4wLjAuMCBTYWZhcmkvNTM3LjM2IEVkZy8xMzMuMC4wLjAiLCJpYXQiOjE3NDEyODE5MDB9.KDyC5Ef450j5TFenRU0j_LhHemtdyceOSeSnQC8i_V0&search-arrival=Auckland">Fluege nach Auckland</a></li>
-            </ul>
-        </article>    
-        </main>
-    
-        <footer>
-            <nav>
-                <a href="https://Ellinnaa.github.io/nz/"> <i class="fa-solid fa-arrow-left"></i> vorhergehende Etappe</a>
-                <a href="https://samuesl.github.io/nz/"><i class="fa-solid fa-house"></i> diese Etappe</a>
-                <a href="https://Gregorysprenger2001.github.io/nz/"> nächste Etappe <i class="fa-solid fa-arrow-right"></i></a>
-            </nav>
-        </footer>
-   
+        </select>
+
+    </div>
+
+    <!-- ab hier Wetterkarte-->
+
+    <h3> <i class="fa-solid fa-link"></i> Wetterkarte</h3>
+    <header>
+        <h2><i class="fa-solid fa-cloud-sun-rain"></i> Wind & Wetter Beispiel</h2>
+        <nav>
+            <i class="fab fa-github"></i> <a href="https://github.com/webmapping/forecast">Github</a>
+        </nav>
+    </header>
+    <article>
+        <div id="map2"></div>
+    </article>
+    <footer>
+        <strong>Datenquellen:</strong>
+        <nav>
+            <a href="https://api.met.no/weatherapi/locationforecast/2.0/documentation">MET Norway
+                Locationforecast</a> (<a
+                href="https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=47.267222&lon=11.392778">Innsbruck</a>)
+            |
+            <a href="https://github.com/metno/weathericons/">MET Weather API icons</a> |
+            <a href="https://nominatim.org/release-docs/latest/api/Reverse/">Nominatim Reverse Geocoding</a> (<a
+                href="https://nominatim.openstreetmap.org/reverse?lat=47.267222&lon=11.392778&zoom=15&format=jsonv2">Innsbruck</a>)
+            |
+            <a href="https://www.ecmwf.int/en/forecasts/datasets/open-data">ECMWF Open Data</a> <span
+                id="forecast-link"></span>
+        </nav>
+    </footer>
+    </article>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="https://Ellinnaa.github.io/nz/"> <i class="fa-solid fa-arrow-left"></i> vorhergehende Etappe</a>
+            <a href="https://samuesl.github.io/nz/"><i class="fa-solid fa-house"></i> diese Etappe</a>
+            <a href="https://Gregorysprenger2001.github.io/nz/"> nächste Etappe <i
+                    class="fa-solid fa-arrow-right"></i></a>
+        </nav>
+    </footer>
+
 </body>
 
 </html>
