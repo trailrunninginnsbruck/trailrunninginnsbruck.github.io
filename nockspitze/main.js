@@ -55,26 +55,26 @@ L.control.scale({
 
 // Etappennavigation über Pulldownmenü
 //console.log(ETAPPEN)
-let pulldown = document.querySelector("#pulldown");
-console.log(pulldown);
-for (let etappe of ETAPPEN) {
+//let pulldown = document.querySelector("#pulldown");
+//console.log(pulldown);
+//for (let etappe of ETAPPEN) {
     //console.log(etappe);
     //console.log(etappe.user);
-    let selected = "";
-    if (etappe.nr == 10) {
-        selected = "selected";
-    }
-    pulldown.innerHTML += `
-    <option ${selected} value="${etappe.user}"> Etappe ${etappe.nr}: ${etappe.titel}</option>
-    `;
+    //let selected = "";
+    //if (etappe.nr == 10) {
+      //  selected = "selected";
+    //}
+   // pulldown.innerHTML += `
+    //<option ${selected} value="${etappe.user}"> Etappe ${etappe.nr}: ${etappe.titel}</option>
+    //`;
 
-}
+//}
 
 //auf Wechsel in Pulldown reagieren
-pulldown.onchange = function (evt) {
-    console.log(evt.target.value);
-    window.location.href = `https://${evt.target.value}.github.io/biketirol`;
-}
+//pulldown.onchange = function (evt) {
+  //  console.log(evt.target.value);
+   // window.location.href = `https://${evt.target.value}.github.io/biketirol`;
+//}
 
 // Instantiate elevation control
 const controlElevation = L.control.elevation({
