@@ -209,14 +209,14 @@ async function showForecast(latlng) {
 map2.setView([stop.lat, stop.lng], stop.zoom);
 
 //auf Kartenklick reagieren
-map.on("click", function (evt) {
+map2.on("click", function (evt) {
     //console.log(evt, evt.latlng);
     showForecast(evt.latlng);
 })
 
 //Klick auf Innsbruck simulieren
 
-map.fire("click", {
+map2.fire("click", {
     latlng: {
         lat: ibk.lat,
         lng: ibk.lng,
