@@ -1,15 +1,15 @@
-/* Bike Trail Tirol Beispiel */
+/*nockspitze trail */
 
-// Innsbruck
-let ibk = {
-    lat: 47.267222,
-    lng: 11.392778
+// nockspitze
+let nockspitze = {
+    lat: 47.191944,
+    lng:  11.325
 };
 
 // Karte initialisieren
 let map = L.map("map", {
     fullscreenControl: true,
-}).setView([ibk.lat, ibk.lng], 9);
+}).setView([nockspitze.lat, nockspitze.lng], 11);
 
 // WMTS Hintergrundlayer der eGrundkarte Tirol
 let eGrundkarteTirol = {
