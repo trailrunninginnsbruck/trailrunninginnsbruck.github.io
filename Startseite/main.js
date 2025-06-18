@@ -19,6 +19,9 @@ const STOPS = [
         title: "Nordkette",
         user: "nordkette",
         nr: 4,
+        runde_1: "Nordkette Runde 1",
+        runde_2: "Nordkette Runde 2",
+        runde_3: "Nordkette Runde 3",
     },
     {
         nr: 2,
@@ -27,6 +30,9 @@ const STOPS = [
         lat:47.208611,
         lng:11.460556,
         zoom:11,
+        runde_1: "Patscherkofel Runde 1",
+        runde_2: "Patscherkofel Runde 2",
+        runde_3: "Patscherkofel Runde 3",
     },
     {
         nr: 3,
@@ -35,8 +41,21 @@ const STOPS = [
         lat: 47.191944,
         lng:  11.325,
         zoom: 13,
+        runde_1: "Nockspitze Runde 1",
+        runde_2: "Nockspitze Runde 2",
+        runde_3: "Nockspitze Runde 3",
+    },
+    {
+         nr: 1,
+    title: "Innsbruck",
+    user: "innsbruck",
+    lat: 47.267222,
+    lng: 11.392778,
+    zoom: 10,
     },
 ];
+
+console.log(STOPS)
 
 //Karte inititlaisieren
 let map = L.map('map');
@@ -72,8 +91,9 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
     marker.bindPopup(`
     <h2>${STOPS[i].title}</h2>
         <ul>
-            <li> Geogr. Breite: ${STOPS[i].lat.toFixed(5)}°</li>
-            <li> Geogr. Länge: ${STOPS[i].lng.toFixed(5)}°</li>
+            <li>${STOPS[i].runde_1}</li>
+            <li>${STOPS[i].runde_2}</li>
+            <li>${STOPS[i].runde_3}</li>
         </ul>
     `);
 
