@@ -119,7 +119,8 @@ document.querySelector("#pulldown select").onchange = function(evt) {
 // Innsbruck
 let ibk = {
     lat: 47.267222,
-    lng: 11.392778
+    lng: 11.392778,
+    zoom: 10,
 };
 
 // Karte initialisieren
@@ -187,7 +188,7 @@ async function showForecast(latlng) {
     for (let i = 0; i <= 24; i += 3) {
         let symbol = jsondata.properties.timeseries[i].data.next_1_hours.summary.symbol_code;
         let time = new Date(jsondata.properties.timeseries[i].time);
-        markup += `<img src="icons/${symbol}.svg" style="width:32px"
+        markup += `<img src="data/icons/${symbol}.svg" style="width:32px"
             title="${time.toLocaleString()}">`;
     }
 
@@ -205,7 +206,7 @@ async function showForecast(latlng) {
     }).openOn(overlays2.forecast)
 
 }
-
+map2.setView([stop.lat, stop.lng], stop.zoom);
 
 //auf Kartenklick reagieren
 map.on("click", function (evt) {
@@ -219,6 +220,8 @@ map.fire("click", {
     latlng: {
         lat: ibk.lat,
         lng: ibk.lng,
+        zoom: ibk.zoom,
+
     }
 })
 
