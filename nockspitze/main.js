@@ -113,7 +113,7 @@ let map2 = L.map("map2", {
 L.control.layers({
     "eGrundkarte Tirol Sommer": L.layerGroup([
         eGrundkarteTirol.sommer2,
-        eGrundkarteTirol.nomenklatur2
+        eGrundkarteTirol.nomenklatur2,
     ]).addTo(map2),
     "eGrundkarte Tirol Winter": L.layerGroup([
         eGrundkarteTirol.winter2,
