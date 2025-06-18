@@ -33,7 +33,7 @@ let map = L.map("map", {
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
-    "eGrundkarte Tirol Sommer": L.layerGroup([
+    /*"eGrundkarte Tirol Sommer": L.layerGroup([
         eGrundkarteTirol.sommer,
         eGrundkarteTirol.nomenklatur
     ]).addTo(map),
@@ -44,7 +44,7 @@ L.control.layers({
     "eGrundkarte Tirol Orthofoto": L.layerGroup([
         eGrundkarteTirol.ortho,
         eGrundkarteTirol.nomenklatur,
-    ]),
+    ]),*/
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
 }).addTo(map);
@@ -111,7 +111,7 @@ let map2 = L.map("map2", {
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
-    "eGrundkarte Tirol Sommer": L.layerGroup([
+    /*"eGrundkarte Tirol Sommer": L.layerGroup([
         eGrundkarteTirol.sommer2,
         eGrundkarteTirol.nomenklatur2
     ]).addTo(map2),
@@ -122,7 +122,7 @@ L.control.layers({
     "eGrundkarte Tirol Orthofoto": L.layerGroup([
         eGrundkarteTirol.ortho2,
         eGrundkarteTirol.nomenklatur2,
-    ]),
+    ]),*/
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
 }).addTo(map2);
