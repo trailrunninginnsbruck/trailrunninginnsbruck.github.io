@@ -34,7 +34,7 @@ let map = L.map("map", {
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
-    "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
+    "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map),
 }).addTo(map);
 
 // Maßstab
@@ -101,7 +101,7 @@ let map2 = L.map("map2", {
 L.control.layers({
 
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
-    "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
+    "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map2),
 }).addTo(map2);
 
 // Maßstab
