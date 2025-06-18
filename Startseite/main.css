@@ -56,12 +56,12 @@ article figure>img {
     margin: auto;
 }
 
-footer {
+#footer2 {
     text-align: center;
     padding: 1em 2em 3em 2em;
 }
 
-footer nav {
+#footer2 nav {
     display: grid;
     grid-template-columns: 40% 20% 40%;
 }
@@ -90,7 +90,14 @@ figure>img,
 }
 
 #map2 {
-    width: 100%;
-    height: 85vh;
-    border: 1px solid gray;
+     width: 90%;
+    height: 600px;
+    border: 1px solid silver;
+    margin: auto;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    margin-top: 0.5em;
 }
