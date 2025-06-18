@@ -112,16 +112,16 @@ let map2 = L.map("map2", {
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
     "eGrundkarte Tirol Sommer": L.layerGroup([
-        eGrundkarteTirol.sommer,
-        eGrundkarteTirol.nomenklatur
+        eGrundkarteTirol.sommer2,
+        eGrundkarteTirol.nomenklatur2
     ]).addTo(map2),
     "eGrundkarte Tirol Winter": L.layerGroup([
-        eGrundkarteTirol.winter,
-        eGrundkarteTirol.nomenklatur
+        eGrundkarteTirol.winter2,
+        eGrundkarteTirol.nomenklatur2
     ]),
     "eGrundkarte Tirol Orthofoto": L.layerGroup([
-        eGrundkarteTirol.ortho,
-        eGrundkarteTirol.nomenklatur,
+        eGrundkarteTirol.ortho2,
+        eGrundkarteTirol.nomenklatur2,
     ]),
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
