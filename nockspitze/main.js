@@ -6,7 +6,7 @@ let nockspitze = {
     lng:  11.325
 };
 // WMTS Hintergrundlayer der eGrundkarte Tirol
-const eGrundkarteTirol = {
+ const eGrundkarteTirol = {
     sommer: L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png", {
         attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
     }),
@@ -108,30 +108,16 @@ let map2 = L.map("map2", {
     fullscreenControl: true,
 }).setView([nockspitze.lat, nockspitze.lng], 11);
 
-// Layer für map2 erzeugen
-eGrundkarteTirol.sommer2 = L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png", {
-    attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-});
-eGrundkarteTirol.winter2 = L.tileLayer("https://wmts.kartetirol.at/gdi_winter/{z}/{x}/{y}.png", {
-    attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-});
-eGrundkarteTirol.ortho2 = L.tileLayer("https://wmts.kartetirol.at/gdi_ortho/{z}/{x}/{y}.png", {
-    attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-});
-eGrundkarteTirol.nomenklatur2 = L.tileLayer("https://wmts.kartetirol.at/gdi_nomenklatur/{z}/{x}/{y}.png", {
-    attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`,
-    pane: "overlayPane"
-});
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
     "eGrundkarte Tirol Sommer": L.layerGroup([
         eGrundkarteTirol.sommer2,
-        eGrundkarteTirol.nomenklatur2,
+        eGrundkarteTirol.nomenklatur2
     ]).addTo(map2),
     "eGrundkarte Tirol Winter": L.layerGroup([
         eGrundkarteTirol.winter2,
-        eGrundkarteTirol.nomenklatur2,
+        eGrundkarteTirol.nomenklatur2
     ]),
     "eGrundkarte Tirol Orthofoto": L.layerGroup([
         eGrundkarteTirol.ortho2,
@@ -145,6 +131,29 @@ L.control.layers({
 L.control.scale({
     imperial: false,
 }).addTo(map2);
+
+// Etappennavigation über Pulldownmenü
+//console.log(ETAPPEN)
+//let pulldown = document.querySelector("#pulldown");
+//console.log(pulldown);
+//for (let etappe of ETAPPEN) {
+    //console.log(etappe);
+    //console.log(etappe.user);
+    //let selected = "";
+    //if (etappe.nr == 10) {
+      //  selected = "selected";
+    //}
+   // pulldown.innerHTML += `
+    //<option ${selected} value="${etappe.user}"> Etappe ${etappe.nr}: ${etappe.titel}</option>
+    //`;
+
+//}
+
+//auf Wechsel in Pulldown reagieren
+//pulldown.onchange = function (evt) {
+  //  console.log(evt.target.value);
+   // window.location.href = `https://${evt.target.value}.github.io/biketirol`;
+//}
 
 // Instantiate elevation control
 const controlElevation2 = L.control.elevation({
