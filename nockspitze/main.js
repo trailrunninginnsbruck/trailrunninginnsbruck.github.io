@@ -117,7 +117,7 @@ L.control.layers({
     ]).addTo(map2),
     "eGrundkarte Tirol Winter": L.layerGroup([
         eGrundkarteTirol.winter2,
-        eGrundkarteTirol.nomenklatur2
+        eGrundkarteTirol.nomenklatur2,
     ]),
     "eGrundkarte Tirol Orthofoto": L.layerGroup([
         eGrundkarteTirol.ortho2,
