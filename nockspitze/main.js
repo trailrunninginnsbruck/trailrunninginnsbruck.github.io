@@ -107,24 +107,6 @@ let map2 = L.map("map2", {
     fullscreenControl: true,
 }).setView([nockspitze.lat, nockspitze.lng], 11);
 
-// WMTS Hintergrundlayer der eGrundkarte Tirol
-let eGrundkarteTirol = {
-    sommer: L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-    }),
-    winter: L.tileLayer(
-        "https://wmts.kartetirol.at/gdi_winter/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-    }),
-    ortho: L.tileLayer("https://wmts.kartetirol.at/gdi_ortho/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-    }
-    ),
-    nomenklatur: L.tileLayer("https://wmts.kartetirol.at/gdi_nomenklatur/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`,
-        pane: "overlayPane",
-    })
-}
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
