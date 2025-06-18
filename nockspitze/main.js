@@ -5,24 +5,6 @@ let nockspitze = {
     lat: 47.191944,
     lng:  11.325
 };
-// WMTS Hintergrundlayer der eGrundkarte Tirol
- /*const eGrundkarteTirol = {
-    sommer: L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-    }),
-    winter: L.tileLayer(
-        "https://wmts.kartetirol.at/gdi_winter/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-    }),
-    ortho: L.tileLayer("https://wmts.kartetirol.at/gdi_ortho/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`
-    }
-    ),
-    nomenklatur: L.tileLayer("https://wmts.kartetirol.at/gdi_nomenklatur/{z}/{x}/{y}.png", {
-        attribution: `Datenquelle: <a href="https://www.data.gv.at/katalog/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>`,
-        pane: "overlayPane",
-    })
-};*/
 
 // Karte initialisieren
 let map = L.map("map", {
@@ -42,28 +24,6 @@ L.control.scale({
     imperial: false,
 }).addTo(map);
 
-// Etappennavigation über Pulldownmenü
-//console.log(ETAPPEN)
-//let pulldown = document.querySelector("#pulldown");
-//console.log(pulldown);
-//for (let etappe of ETAPPEN) {
-    //console.log(etappe);
-    //console.log(etappe.user);
-    //let selected = "";
-    //if (etappe.nr == 10) {
-      //  selected = "selected";
-    //}
-   // pulldown.innerHTML += `
-    //<option ${selected} value="${etappe.user}"> Etappe ${etappe.nr}: ${etappe.titel}</option>
-    //`;
-
-//}
-
-//auf Wechsel in Pulldown reagieren
-//pulldown.onchange = function (evt) {
-  //  console.log(evt.target.value);
-   // window.location.href = `https://${evt.target.value}.github.io/biketirol`;
-//}
 
 // Instantiate elevation control
 const controlElevation = L.control.elevation({
@@ -109,28 +69,7 @@ L.control.scale({
     imperial: false,
 }).addTo(map2);
 
-// Etappennavigation über Pulldownmenü
-//console.log(ETAPPEN)
-//let pulldown = document.querySelector("#pulldown");
-//console.log(pulldown);
-//for (let etappe of ETAPPEN) {
-    //console.log(etappe);
-    //console.log(etappe.user);
-    //let selected = "";
-    //if (etappe.nr == 10) {
-      //  selected = "selected";
-    //}
-   // pulldown.innerHTML += `
-    //<option ${selected} value="${etappe.user}"> Etappe ${etappe.nr}: ${etappe.titel}</option>
-    //`;
 
-//}
-
-//auf Wechsel in Pulldown reagieren
-//pulldown.onchange = function (evt) {
-  //  console.log(evt.target.value);
-   // window.location.href = `https://${evt.target.value}.github.io/biketirol`;
-//}
 
 // Instantiate elevation control
 const controlElevation2 = L.control.elevation({
@@ -151,5 +90,49 @@ var miniMap2 = new L.Control.MiniMap(gkTirol2, {
     toggleDisplay: true, 
 
 }).addTo(map2);
+
+//fullscreen
+
+// Dritte map
+
+// Karte initialisieren
+let map3 = L.map("map3", {
+    fullscreenControl: true,
+}).setView([nockspitze.lat, nockspitze.lng], 11);
+
+
+// / Layer control mit eGrundkarte Tirol und Standardlayern
+L.control.layers({
+
+    "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
+    "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map3)
+}).addTo(map3);
+
+// Maßstab
+L.control.scale({
+    imperial: false,
+}).addTo(map3);
+
+
+
+// Instantiate elevation control
+const controlElevation3 = L.control.elevation({
+    theme: "bike-tirol",
+    time: false,
+    elevationDiv: "#profile3",
+    height: 300,
+    //slope: true,
+}).addTo(map3);
+
+
+// Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
+controlElevation3.load("data/gpx/test.gpx");
+
+//Minnimap
+var gkTirol3 = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
+var miniMap3 = new L.Control.MiniMap(gkTirol3, {
+    toggleDisplay: true, 
+
+}).addTo(map3);
 
 //fullscreen
