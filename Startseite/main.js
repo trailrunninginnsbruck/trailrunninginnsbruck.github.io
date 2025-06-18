@@ -1,5 +1,5 @@
 /*
-Skript fuer die Neuseelandreise
+Skript fuer die trailrunning Innsbruck Startseite
 */
 
 let stop ={
@@ -104,8 +104,8 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
 
 //auf Änderungen beim Pulldown reagieren
 document.querySelector("#pulldown select").onchange = function(evt) {
-    let url = `https://${evt.target.value}.github.io/nz`;
-    //console.log(url);
+    let url = `https://trailrunninginnsbruck.github.io/startseite/${evt.target.value}/`;
+    console.log(url);
     //console.log(evt.target.value);
     window.location = url;
 }
