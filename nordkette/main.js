@@ -82,7 +82,7 @@ const controlElevation2 = L.control.elevation({
 
 
 // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
-controlElevation2.load("data/gpx/nordkette/data/gpx/test2.gpx");
+controlElevation2.load("nordkette/data/gpx/test2.gpx");
 
 //Minnimap
 var gkTirol2 = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
@@ -126,7 +126,7 @@ const controlElevation3 = L.control.elevation({
 
 
 // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
-controlElevation3.load("data/gpx/test3.gpx");
+controlElevation3.load("nordkette/data/gpx/test3.gpx");
 
 //Minnimap
 var gkTirol3 = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");

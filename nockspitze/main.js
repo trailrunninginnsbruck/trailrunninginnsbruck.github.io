@@ -36,7 +36,7 @@ const controlElevation = L.control.elevation({
 
 
 // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
-controlElevation.load("data/gpx/test.gpx");
+controlElevation.load("nockspitze/data/gpx/test.gpx");
 
 //Minnimap
 var gkTirol = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
@@ -126,7 +126,7 @@ const controlElevation3 = L.control.elevation({
 
 
 // Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
-controlElevation3.load("data/gpx/test.gpx");
+controlElevation3.load("nockspitze/data/gpx/test.gpx");
 
 //Minnimap
 var gkTirol3 = new L.tileLayer("https://wmts.kartetirol.at/gdi_summer/{z}/{x}/{y}.png");
