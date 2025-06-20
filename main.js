@@ -130,7 +130,15 @@ let map2 = L.map("map2").setView([ibk.lat, ibk.lng], 5);
 let overlays2 = {
     forecast: L.featureGroup().addTo(map2),
     wind: L.featureGroup().addTo(map2),
+    marker: L.featureGroup().addTo(map2),
 }
+
+//marker zeichen
+for (let i = 0; i < STOPS.length; i++) {
+    let marker2 = L.marker([STOPS[i].lat, STOPS[i].lng]).addTo(map2);
+    marker2.addTo(overlays2.marker);
+}
+
 
 // Layer Control
 let layerControl = L.control.layers({
