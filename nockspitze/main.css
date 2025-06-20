@@ -39,7 +39,7 @@ article {
 }
 
 #map {
-    width: 100%;
+    width: 80%;
     height: 600px;
     border: 1px solid gray;
 }
@@ -82,7 +82,7 @@ footer nav {
 }
 
 #map2 {
-    width: 100%;
+    width: 80%;
     height: 600px;
     border: 1px solid gray;
 }
@@ -93,7 +93,7 @@ footer nav {
 }
 
 #map3 {
-    width: 100%;
+    width: 80%;
     height: 600px;
     border: 1px solid gray;
 }
