@@ -19,9 +19,9 @@ const STOPS = [
         title: "Nordkette",
         user: "nordkette",
         nr: 4,
-        runde_1: "Nordkette Runde 1",
-        runde_2: "Nordkette Runde 2",
-        runde_3: "Nordkette Runde 3",
+        runde_1: "Nordkette 25,7 km - 1856 Hm",
+        runde_2: "Nordkette 19,1 km - 1.218 Hm",
+        runde_3: "Nordkette 8,8 km - 422 Hm",
     },
     {
         nr: 2,
@@ -30,9 +30,9 @@ const STOPS = [
         lat:47.208611,
         lng:11.460556,
         zoom:11,
-        runde_1: "Patscherkofel Runde 1",
-        runde_2: "Patscherkofel Runde 2",
-        runde_3: "Patscherkofel Runde 3",
+        runde_1: "Patscherkofel 23,9 km - 1.460 Hm",
+        runde_2: "Patscherkofel 14,9 km - 949 Hm",
+        runde_3: "Patscherkofel 8,8 km - 594 Hm",
     },
     {
         nr: 3,
@@ -41,9 +41,9 @@ const STOPS = [
         lat: 47.191944,
         lng:  11.325,
         zoom: 13,
-        runde_1: "Nockspitze Runde 1",
-        runde_2: "Nockspitze Runde 2",
-        runde_3: "Nockspitze Runde 3",
+        runde_1: "Nockspitze 24,1 km - 1485 Hm",
+        runde_2: "Nockspitze 16,3 km - 1.010 Hm",
+        runde_3: "Nockspitze 8,4 km - 452 Hm",
     },
 ];
 
