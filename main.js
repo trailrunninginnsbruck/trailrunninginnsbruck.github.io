@@ -92,26 +92,6 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
     //auf alle Regionen zoomen
     map.setView([stop.lat, stop.lng], stop.zoom);
 
-    /*//Pulldownmenü befüllen
-    let option =  document.createElement("option");
-    option.value = STOPS[i].user;
-    option.text = STOPS[i].title;
-    if (STOPS[i].user == "innsbruck") {
-        option.selected = true;
-    }
-    document.querySelector("#pulldown select").appendChild(option);
-}
-
-//auf Änderungen beim Pulldown reagieren
-document.querySelector("#pulldown select").onchange = function(evt) {
-    let url = `https://trailrunninginnsbruck.github.io/${evt.target.value}/`;
-    console.log(url);
-    //console.log(evt.target.value);
-    window.location = url;
-}
- 
-
-
 
 //ab hier map 2
  /* Wind & Wetter Beispiel */
@@ -132,13 +112,6 @@ let overlays2 = {
     wind: L.featureGroup().addTo(map2),
     marker: L.featureGroup().addTo(map2),
 }
-
-//marker zeichen
-/*for (let i = 0; i < STOPS.length; i++) {
-    let marker2 = L.marker([STOPS[i].lat, STOPS[i].lng]).addTo(map2);
-    marker2.addTo(overlays2.marker);
-}
-*/
 
 // Layer Control
 let layerControl = L.control.layers({
