@@ -1,4 +1,4 @@
-/* Bike Trail Tirol Beispiel */
+/* Nockspitze */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:wght@300&display=swap');
 
@@ -89,7 +89,7 @@ footer nav {
 }
 
 #map2 {
-    width: 80%;
+    width: 90%;
     height: 600px;
     border: 1px solid gray;
     margin: auto;
