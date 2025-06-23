@@ -4,6 +4,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    text-align: justify;
 }
 
 a {
@@ -44,6 +45,8 @@ article {
     border: 1px solid gray;
     margin: auto;
 }
+
+
 
 footer {
     font-family: "Roboto", sans-serif;
