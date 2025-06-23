@@ -88,11 +88,11 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
             <li>${STOPS[i].runde_3}</li>
         </ul>
     `);
-
+}
     //auf alle Regionen zoomen
     map.setView([stop.lat, stop.lng], stop.zoom);
 
-    //Pulldownmenü befüllen
+    /*//Pulldownmenü befüllen
     let option =  document.createElement("option");
     option.value = STOPS[i].user;
     option.text = STOPS[i].title;
@@ -109,7 +109,7 @@ document.querySelector("#pulldown select").onchange = function(evt) {
     //console.log(evt.target.value);
     window.location = url;
 }
-
+ 
 
 
 
@@ -134,11 +134,11 @@ let overlays2 = {
 }
 
 //marker zeichen
-for (let i = 0; i < STOPS.length; i++) {
+/*for (let i = 0; i < STOPS.length; i++) {
     let marker2 = L.marker([STOPS[i].lat, STOPS[i].lng]).addTo(map2);
     marker2.addTo(overlays2.marker);
 }
-
+*/
 
 // Layer Control
 let layerControl = L.control.layers({
@@ -274,4 +274,3 @@ async function loadWind(url) {
 }
 
 loadWind("https://geographie.uibk.ac.at/data/ecmwf/data/wind-10u-10v-europe.json");
-
