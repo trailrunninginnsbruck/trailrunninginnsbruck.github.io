@@ -31,6 +31,13 @@ header nav {
     font-weight: bold;
     padding-top: 1em;
 }
+#header2-nav {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.4em;
+}
 
 article {
     margin-top: 0.5em;
