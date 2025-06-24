@@ -31,7 +31,7 @@ L.control.scale({
 
 
 // Brunnen GeoJSON laden und ins Overlay einfügen
-async function loadTrinkbrunnen(url) {
+async function loadTrinkbrunnen(url, overlay) {
     console.log(url);
     let response = await fetch(url);
     let geojson = await response.json();
@@ -54,11 +54,8 @@ async function loadTrinkbrunnen(url) {
                 <p>Koordinaten: ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}</p>
             `);
         }
-    }).addTo(overlays.Brunnen);
+    }).addTo(overlay);
 }
-
-// Aufruf:
-loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson");
 
 
 
@@ -101,12 +98,16 @@ let map2 = L.map("map2", {
     fullscreenControl: true,
 }).setView([nordkette.lat, nordkette.lng], 11);
 
+let overlays2 = {
+    Brunnen: L.featureGroup().addTo(map2)
+};
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
-
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map2)
+}, {
+    "Brunnen": overlays2.Brunnen,
 }).addTo(map2);
 
 // Maßstab
@@ -146,6 +147,8 @@ var miniMap2 = new L.Control.MiniMap(gkTirol2, {
 
         }).addTo(map2);
 
+
+
 // Dritte map
 
 // Karte initialisieren
@@ -153,12 +156,16 @@ let map3 = L.map("map3", {
     fullscreenControl: true,
 }).setView([nordkette.lat, nordkette.lng], 11);
 
+let overlays3 = {
+    Brunnen: L.featureGroup().addTo(map3)
+};
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
-
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map3)
+}, {
+    "Brunnen": overlays3.Brunnen,
 }).addTo(map3);
 
 // Maßstab
@@ -196,3 +203,8 @@ var miniMap3 = new L.Control.MiniMap(gkTirol3, {
         drawCircle: false
 
         }).addTo(map3);
+
+// ...nachdem overlays, overlays2, overlays3 definiert wurden:
+loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays.Brunnen);
+loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays2.Brunnen);
+loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays3.Brunnen);
