@@ -11,18 +11,51 @@ let map = L.map("map", {
     fullscreenControl: true,
 }).setView([nockspitze.lat, nockspitze.lng], 11);
 
+let overlays = {
+    Brunnen: L.featureGroup().addTo(map)
+};
+
 
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map)
-}).addTo(map);
+}, {
+    "Brunnen": overlays.Brunnen
+}).addTo(map);;
 
 // Maßstab
 L.control.scale({
     imperial: false,
 }).addTo(map);
+
+// Brunnen GeoJSON laden und ins Overlay einfügen
+async function loadTrinkbrunnen(url, overlay) {
+    console.log(url);
+    let response = await fetch(url);
+    let geojson = await response.json();
+    console.log(geojson);
+
+    L.geoJSON(geojson, {
+        attribution: "Datenquelle: <a href='#'>Stadt Innsbruck</a>",
+        pointToLayer: function (feature, latlng) {
+             return L.marker(latlng, {
+        icon: L.divIcon({
+            html: '<i class="fa-solid fa-droplet" style="font-size:1rem;color:#007bff"></i>',
+            iconSize: [10, 10],
+            className: 'my-fa-icon'
+        })
+    });
+},
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup(`
+                <h4><i class="fa-solid fa-faucet"></i> ${feature.properties.name}</h4>
+                <p>Koordinaten: ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}</p>
+            `);
+        }
+    }).addTo(overlay);
+}
 
 
 // Instantiate elevation control
@@ -63,12 +96,17 @@ let map2 = L.map("map2", {
     fullscreenControl: true,
 }).setView([nockspitze.lat, nockspitze.lng], 11);
 
+let overlays2 = {
+    Brunnen: L.featureGroup().addTo(map2)
+};
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
 
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map2)
+}, {
+    "Brunnen": overlays2.Brunnen
 }).addTo(map2);
 
 // Maßstab
@@ -114,12 +152,17 @@ let map3 = L.map("map3", {
     fullscreenControl: true,
 }).setView([nockspitze.lat, nockspitze.lng], 11);
 
+let overlays3 = {
+    Brunnen: L.featureGroup().addTo(map3)
+};
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
 
     "OpenStreetMap": L.tileLayer.provider("OpenStreetMap.Mapnik"),
     "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery").addTo(map3)
+},{
+    "Brunnen": overlays3.Brunnen
 }).addTo(map3);
 
 // Maßstab
@@ -157,3 +200,8 @@ var miniMap3 = new L.Control.MiniMap(gkTirol3, {
         drawCircle: false
 
         }).addTo(map3);
+
+        //BRunnen laden
+loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays.Brunnen);
+loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays2.Brunnen);
+loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays3.Brunnen);

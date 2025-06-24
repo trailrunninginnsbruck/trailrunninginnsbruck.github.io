@@ -204,7 +204,7 @@ var miniMap3 = new L.Control.MiniMap(gkTirol3, {
 
         }).addTo(map3);
 
-// ...nachdem overlays, overlays2, overlays3 definiert wurden:
+// load BRunnen
 loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays.Brunnen);
 loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays2.Brunnen);
 loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson", overlays3.Brunnen);
