@@ -67,7 +67,7 @@ const controlElevation = L.control.elevation({
 }).addTo(map);
 
 
-// Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
+// Load track 
 controlElevation.load("data/gpx/pk_kurz.gpx");
 
 //Minnimap
@@ -127,7 +127,7 @@ const controlElevation2 = L.control.elevation({
 }).addTo(map2);
 
 
-// Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
+// Load track 
 controlElevation2.load("data/gpx/pk_mittel.gpx");
 
 //Minnimap
@@ -184,7 +184,7 @@ const controlElevation3 = L.control.elevation({
 }).addTo(map3);
 
 
-// Load track from url (allowed data types: "*.geojson", "*.gpx", "*.tcx")
+// Load track 
 controlElevation3.load("data/gpx/pk_lang.gpx");
 
 //Minnimap
