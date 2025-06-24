@@ -10,7 +10,7 @@ let map = L.map("map", {
 }).setView([nordkette.lat, nordkette.lng], 11);
 
 
-/ overlays definieren
+// overlays definieren
 let overlays = {
     Brunnen: L.featureGroup().addTo(map)
 };
@@ -58,7 +58,7 @@ async function loadTrinkbrunnen(url) {
 }
 
 // Aufruf:
-loadTrinkbrunnen("./data/geojson/trinkbrunnen.geojson");
+loadTrinkbrunnen("../data/geojson/trinkbrunnen.geojson");
 
 
 
