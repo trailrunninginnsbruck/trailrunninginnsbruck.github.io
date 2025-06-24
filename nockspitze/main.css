@@ -56,11 +56,7 @@ article {
 
 
 
-footer {
-    font-family: "Roboto", sans-serif;
-    font-size: 0.9em;
-    margin-top: 0.5em;
-}
+
 
 footer nav {
     display: inline-block;
@@ -80,15 +76,6 @@ footer nav {
     margin-right: 0.5em;
 }
 
-#pulldown {
-    font-size: 1.1em;
-    margin-bottom: 0.3em;
-}
-
-.bike-tirol {
-   --ele-area: #3d9970;
-   --ele-bg: white; 
-}
 
 #profile {
     margin-top: 0.3em;
@@ -118,4 +105,10 @@ footer nav {
 #profile3 {
     margin-top: 0.3em;
     border: 1px solid gray;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    margin-top: 0.5em;
 }

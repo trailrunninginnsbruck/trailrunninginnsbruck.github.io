@@ -13,13 +13,6 @@ header>img {
     max-width: 100%;
 }
 
-header a img {
-    border: 1px solid silver;
-    border-radius: 50%;
-    margin-top: -75px;
-    margin-left: calc(50% - 50px);
-}
-
 header nav {
     text-align: right;
     font-size: 0.9em;
@@ -35,14 +28,6 @@ header nav {
     font-size: 1.4em;
 }
 
-main {
-    max-width: 1024px;
-    margin: auto;
-    margin-top: -50px;
-    border-left: 1px dashed gray;
-    border-right: 1px dashed gray;
-    border-bottom: 1px dashed gray;
-}
 
 article {
     padding: 1em;
@@ -55,7 +40,6 @@ article p {
 }
 
 article h1,
-article h2,
 article h3 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -86,7 +70,6 @@ a {
 }
 
 header img,
-figure>img,
 #map {
     box-shadow:
         0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -96,11 +79,6 @@ figure>img,
 @media screen and (max-width: 1280px) {
     main {
         border: none;
-    }
-
-    figure {
-        margin-left: 0;
-        width: 100%;
     }
 }
 
