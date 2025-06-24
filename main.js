@@ -64,7 +64,7 @@ L.control.layers({
     "OpenTopoMap": L.tileLayer.provider('OpenTopoMap').addTo(map),
     "Esri.WorldImagery": L.tileLayer.provider('Esri.WorldImagery'),
 }, {
-    "Etappen": overlays.marker,
+    "Regionen": overlays.marker,
 }).addTo(map);
 
 //Massstab
@@ -72,7 +72,7 @@ L.control.scale({
     imperial: false,
 }).addTo(map);
 
-// loop ueber Etappen
+// loop 
 for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
 
     //Marker zeichnen
@@ -94,7 +94,7 @@ for (let i=0; i<STOPS.length; i++) {console.log(i, STOPS[i].title);
 
 
 //ab hier map 2
- /* Wind & Wetter Beispiel */
+/* Wind & Wetter Beispiel */
 
 // Innsbruck
 let ibk = {
