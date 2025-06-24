@@ -55,7 +55,10 @@ article {
 }
 
 
-
+.bike-tirol {
+   --ele-area: #3d9970;
+   --ele-bg: white; 
+   }
 
 
 footer nav {
