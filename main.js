@@ -229,6 +229,8 @@ async function loadWind(url) {
     `;
     L.velocityLayer({
         displayValues: true,
+        lineWidth: 3,
+        lineLength: 10,
         displayOptions: {
             // label prefix
             velocityType: "",
