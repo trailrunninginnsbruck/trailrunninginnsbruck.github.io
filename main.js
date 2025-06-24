@@ -189,6 +189,12 @@ async function showForecast(latlng) {
 }
 map2.setView([stop.lat, stop.lng], stop.zoom);
 
+    //Marker zeichnen
+    for (let i = 0; i < STOPS.length; i++) {
+     let marker2 = L.marker([STOPS[i].lat, STOPS[i].lng]).addTo(map2);
+    marker2.addTo(overlays2.marker);
+    }
+
 //auf Kartenklick reagieren
 map2.on("click", function (evt) {
     //console.log(evt, evt.latlng);
