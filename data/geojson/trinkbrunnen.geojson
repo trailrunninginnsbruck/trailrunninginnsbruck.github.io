@@ -1,0 +1,2007 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40078766,
+          47.23516232
+        ]
+      },
+      "properties": {
+        "name": "Viller Dorfstraße - Schlögl-Brunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41949809,
+          47.26831727
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Egerdach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4220041,
+          47.29139957
+        ]
+      },
+      "properties": {
+        "name": "Steinbruchwegbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42805649,
+          47.21809702
+        ]
+      },
+      "properties": {
+        "name": "Eisbergbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40617019,
+          47.29328608
+        ]
+      },
+      "properties": {
+        "name": "Florianibrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42532143,
+          47.26208814
+        ]
+      },
+      "properties": {
+        "name": "Seewirtbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40331905,
+          47.29652566
+        ]
+      },
+      "properties": {
+        "name": "Arzler Alm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37887087,
+          47.29251721
+        ]
+      },
+      "properties": {
+        "name": "Umbrückleralm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41910457,
+          47.28864177
+        ]
+      },
+      "properties": {
+        "name": "Kohlplatzl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40785453,
+          47.25842326
+        ]
+      },
+      "properties": {
+        "name": "Tivoli I"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43162992,
+          47.28483891
+        ]
+      },
+      "properties": {
+        "name": "Arzler Dorfbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37105083,
+          47.25157684
+        ]
+      },
+      "properties": {
+        "name": "Peterbrünnl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.36676703,
+          47.29840186
+        ]
+      },
+      "properties": {
+        "name": "Höttinger Alm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38025241,
+          47.26191311
+        ]
+      },
+      "properties": {
+        "name": "Perlorniggbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41068482,
+          47.23076239
+        ]
+      },
+      "properties": {
+        "name": "Ägidibrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42305333,
+          47.27635959
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Reichenauerpromenade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.32816146,
+          47.26474189
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen Saurweinwiese I"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37706997,
+          47.2613763
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Ampfererpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4059848,
+          47.28092703
+        ]
+      },
+      "properties": {
+        "name": "Traklpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.32688969,
+          47.26501451
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen Sauerweinwiese II"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37053959,
+          47.25709484
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Mitterweg Ost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40798524,
+          47.23221218
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen Schlosshotel Igls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40076465,
+          47.23699721
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Vill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41556505,
+          47.28940512
+        ]
+      },
+      "properties": {
+        "name": "Alte Brunnenstube Schillerweg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39925811,
+          47.25811645
+        ]
+      },
+      "properties": {
+        "name": "Pechepark II"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42052425,
+          47.26720526
+        ]
+      },
+      "properties": {
+        "name": "Graf Andechs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42534045,
+          47.28944284
+        ]
+      },
+      "properties": {
+        "name": "Arzler Schießstand"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38469749,
+          47.25794824
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Beselepark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.34201891,
+          47.26687646
+        ]
+      },
+      "properties": {
+        "name": "Lohbach I, Kommunikationsplatz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41118775,
+          47.22871915
+        ]
+      },
+      "properties": {
+        "name": "Kurpark Igls II Hans im Glück"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35622038,
+          47.25387858
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Sieglanger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39578838,
+          47.2860858
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Hungerburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37744018,
+          47.25701275
+        ]
+      },
+      "properties": {
+        "name": "Franz-Gschnitzer-Promende"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38744628,
+          47.27147853
+        ]
+      },
+      "properties": {
+        "name": "Riedgasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42240279,
+          47.2659829
+        ]
+      },
+      "properties": {
+        "name": "Grünzug 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41975178,
+          47.27371879
+        ]
+      },
+      "properties": {
+        "name": "Grüngürtel-Reichenau-West"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40716688,
+          47.27465087
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Schillerpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40546397,
+          47.27212734
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen Stein"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3787413,
+          47.28256982
+        ]
+      },
+      "properties": {
+        "name": "Gramartwiese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42300182,
+          47.26569304
+        ]
+      },
+      "properties": {
+        "name": "Grünzug 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38892403,
+          47.26557588
+        ]
+      },
+      "properties": {
+        "name": "Johanneskirche"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41167324,
+          47.29474851
+        ]
+      },
+      "properties": {
+        "name": "Franziskusbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43399265,
+          47.28438415
+        ]
+      },
+      "properties": {
+        "name": "Gritscher"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43094619,
+          47.28459722
+        ]
+      },
+      "properties": {
+        "name": "Schobergasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39252711,
+          47.29001487
+        ]
+      },
+      "properties": {
+        "name": "Kreuzbründlweg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40670134,
+          47.25902562
+        ]
+      },
+      "properties": {
+        "name": "Tivoli II"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41074602,
+          47.22760249
+        ]
+      },
+      "properties": {
+        "name": "Kurpark Igls I Steinbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41829769,
+          47.2730943
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Gutshofweg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41515365,
+          47.2831346
+        ]
+      },
+      "properties": {
+        "name": "Ballspielplatz Mühlenweg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43227854,
+          47.28167914
+        ]
+      },
+      "properties": {
+        "name": "Vereinsheim Arzl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40716476,
+          47.2652635
+        ]
+      },
+      "properties": {
+        "name": "Stadtpark I"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37133273,
+          47.25556067
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Dr.-Stumpf-Straße Ost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42039581,
+          47.2770062
+        ]
+      },
+      "properties": {
+        "name": "Kneippanlage Reichenauerpromenade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41247775,
+          47.28718308
+        ]
+      },
+      "properties": {
+        "name": "Duschek Brunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41635872,
+          47.28701746
+        ]
+      },
+      "properties": {
+        "name": "Mühlauer Fuchsloch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38922602,
+          47.27971493
+        ]
+      },
+      "properties": {
+        "name": "Venusquelle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37865037,
+          47.28340546
+        ]
+      },
+      "properties": {
+        "name": "Brunnenstube Gramart"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35140505,
+          47.27577435
+        ]
+      },
+      "properties": {
+        "name": "Kollandbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39516666,
+          47.28995308
+        ]
+      },
+      "properties": {
+        "name": "Waldspielplatz Hungerburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38145297,
+          47.27200132
+        ]
+      },
+      "properties": {
+        "name": "Brunnen beim Hummel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39641032,
+          47.28638252
+        ]
+      },
+      "properties": {
+        "name": "Theresienkirche"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4054598,
+          47.28531053
+        ]
+      },
+      "properties": {
+        "name": "Bederlungerquelle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38010437,
+          47.27584964
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen Dorfgasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38056788,
+          47.27508681
+        ]
+      },
+      "properties": {
+        "name": "Kapellenbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42817415,
+          47.2892001
+        ]
+      },
+      "properties": {
+        "name": "Eggenwaldweg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43149466,
+          47.29172597
+        ]
+      },
+      "properties": {
+        "name": "Brunnelboden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40232108,
+          47.23656816
+        ]
+      },
+      "properties": {
+        "name": "Vill Dorfbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43088948,
+          47.25843024
+        ]
+      },
+      "properties": {
+        "name": "Bierwirtbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40721366,
+          47.27868241
+        ]
+      },
+      "properties": {
+        "name": "Parkanlage Verdroßplatz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40399138,
+          47.27343041
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Sieberschule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3874384,
+          47.25716118
+        ]
+      },
+      "properties": {
+        "name": "Roßbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.32602816,
+          47.26519759
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen Sauerweinwiese III"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.36948399,
+          47.282328
+        ]
+      },
+      "properties": {
+        "name": "Höttinger Bild"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.44203207,
+          47.21628219
+        ]
+      },
+      "properties": {
+        "name": "Igler Alm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.394041,
+          47.27421589
+        ]
+      },
+      "properties": {
+        "name": "Schmelzergasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.32760035,
+          47.26466577
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Saurweinwiese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38475177,
+          47.27209808
+        ]
+      },
+      "properties": {
+        "name": "Vereinsheim Hötting"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3955831,
+          47.27007342
+        ]
+      },
+      "properties": {
+        "name": "Rennweg (Europaratsallee)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39387358,
+          47.26827293
+        ]
+      },
+      "properties": {
+        "name": "Herzog Friedrichstraße (Stadtturm)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39595818,
+          47.2699495
+        ]
+      },
+      "properties": {
+        "name": "Landestheatervorplatz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39688021,
+          47.2593737
+        ]
+      },
+      "properties": {
+        "name": "Wiltener Platzl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39458791,
+          47.26834334
+        ]
+      },
+      "properties": {
+        "name": "Bücherbrunnen von Defner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39291982,
+          47.26712066
+        ]
+      },
+      "properties": {
+        "name": "Sarntal Brunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41839395,
+          47.26202011
+        ]
+      },
+      "properties": {
+        "name": "Seebergasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39317517,
+          47.25733859
+        ]
+      },
+      "properties": {
+        "name": "Sonnenburgplatz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43036406,
+          47.21672575
+        ]
+      },
+      "properties": {
+        "name": "Heiligwasser"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42982125,
+          47.25987144
+        ]
+      },
+      "properties": {
+        "name": "Florianibrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39995481,
+          47.25327342
+        ]
+      },
+      "properties": {
+        "name": "Klostergasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35326651,
+          47.28879939
+        ]
+      },
+      "properties": {
+        "name": "Achselkopfhütte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.32845842,
+          47.26284906
+        ]
+      },
+      "properties": {
+        "name": "Kranebitter Kirche"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41207793,
+          47.28316027
+        ]
+      },
+      "properties": {
+        "name": "Anton-Rauch-Straße"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41286745,
+          47.28340466
+        ]
+      },
+      "properties": {
+        "name": "Mühlauer Hauptplatz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40817934,
+          47.28474016
+        ]
+      },
+      "properties": {
+        "name": "Interessentschaftsbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37270775,
+          47.26817316
+        ]
+      },
+      "properties": {
+        "name": "Großer Gott"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38265577,
+          47.27258576
+        ]
+      },
+      "properties": {
+        "name": "Bauerngasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38786903,
+          47.26804801
+        ]
+      },
+      "properties": {
+        "name": "Mariahilfstraße"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38418723,
+          47.27233819
+        ]
+      },
+      "properties": {
+        "name": "Alte Höttinger Kirche"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39434972,
+          47.26544569
+        ]
+      },
+      "properties": {
+        "name": "Maria-Theresien-Straße Süd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39373557,
+          47.26694042
+        ]
+      },
+      "properties": {
+        "name": "Maria-Theresien-Straße Nord"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39607497,
+          47.26307361
+        ]
+      },
+      "properties": {
+        "name": "Eduard-Wallnöfer-Platz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42388221,
+          47.27083569
+        ]
+      },
+      "properties": {
+        "name": "Campagne - Areal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39327714,
+          47.26798908
+        ]
+      },
+      "properties": {
+        "name": "Trautsonbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39325118,
+          47.26856898
+        ]
+      },
+      "properties": {
+        "name": "Goldenes Dachl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38963727,
+          47.26631135
+        ]
+      },
+      "properties": {
+        "name": "Alter Marktbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39226817,
+          47.2720409
+        ]
+      },
+      "properties": {
+        "name": "Hans-Brenner-Platz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3962558,
+          47.27678032
+        ]
+      },
+      "properties": {
+        "name": "Kaysergarten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.44491234,
+          47.27172439
+        ]
+      },
+      "properties": {
+        "name": "Sportplatz O-Dorf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39657212,
+          47.2701972
+        ]
+      },
+      "properties": {
+        "name": "Hofgarten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40777252,
+          47.27716824
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40994573,
+          47.2315346
+        ]
+      },
+      "properties": {
+        "name": "Kneipanlage Igls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.36993473,
+          47.25985211
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Angergasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35526477,
+          47.26484283
+        ]
+      },
+      "properties": {
+        "name": "Lohbachufer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39914094,
+          47.28587918
+        ]
+      },
+      "properties": {
+        "name": "Kuttlerbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.44245419,
+          47.27287546
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage An-der-Lan-Straße 37"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41298938,
+          47.27406345
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Kärntner Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.44077385,
+          47.27100716
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Wohnheim O-Dorf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.44584734,
+          47.26918778
+        ]
+      },
+      "properties": {
+        "name": "Grünbacherpromenade I"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38278222,
+          47.26435326
+        ]
+      },
+      "properties": {
+        "name": "Prandtauer Ufer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37050437,
+          47.26348021
+        ]
+      },
+      "properties": {
+        "name": "Pilzebrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4084224,
+          47.23059369
+        ]
+      },
+      "properties": {
+        "name": "Hackerbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40708937,
+          47.2586475
+        ]
+      },
+      "properties": {
+        "name": "Tivoli III"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39545819,
+          47.24962036
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Tummlerpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40100288,
+          47.27844766
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Huttererpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43578279,
+          47.27495645
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Schützenstraße"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40964838,
+          47.26175937
+        ]
+      },
+      "properties": {
+        "name": "Trinkbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39411967,
+          47.26363009
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Serviten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42743483,
+          47.25930988
+        ]
+      },
+      "properties": {
+        "name": "Pankraziusbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39851063,
+          47.25823273
+        ]
+      },
+      "properties": {
+        "name": "Pechepark I"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40818124,
+          47.2680762
+        ]
+      },
+      "properties": {
+        "name": "Sankt Florian Brunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3919114,
+          47.26574534
+        ]
+      },
+      "properties": {
+        "name": "Adolf-Pichler-Platz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40932731,
+          47.23093545
+        ]
+      },
+      "properties": {
+        "name": "Wieserbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39149345,
+          47.269747
+        ]
+      },
+      "properties": {
+        "name": "Waltherpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39046754,
+          47.26880305
+        ]
+      },
+      "properties": {
+        "name": "Innbrücke"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.36484724,
+          47.25410115
+        ]
+      },
+      "properties": {
+        "name": "Gitterlebrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40460707,
+          47.27268076
+        ]
+      },
+      "properties": {
+        "name": "Siebererschule"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.35629021,
+          47.25568631
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Pulverturm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42046276,
+          47.26475091
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Kranewitterpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41917048,
+          47.27687976
+        ]
+      },
+      "properties": {
+        "name": "Reichenauerpromenade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39907221,
+          47.28093937
+        ]
+      },
+      "properties": {
+        "name": "Sophienbrünnl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43839723,
+          47.27170727
+        ]
+      },
+      "properties": {
+        "name": "Grünbacherpromenade II"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40618214,
+          47.27053531
+        ]
+      },
+      "properties": {
+        "name": "Jahnbrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38291085,
+          47.27161129
+        ]
+      },
+      "properties": {
+        "name": "Daxgasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42900982,
+          47.25693483
+        ]
+      },
+      "properties": {
+        "name": "Einhausung Amras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41285994,
+          47.28482643
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Widum Mühlau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4063968,
+          47.26662346
+        ]
+      },
+      "properties": {
+        "name": "Stadtpark II"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.34566474,
+          47.26634458
+        ]
+      },
+      "properties": {
+        "name": "Marktplatz Hötting West"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40590884,
+          47.26720884
+        ]
+      },
+      "properties": {
+        "name": "Stadtpark III"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40100676,
+          47.28144871
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Judenbühel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40221109,
+          47.2348778
+        ]
+      },
+      "properties": {
+        "name": "Viller Dorfstraße"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3819985,
+          47.26191507
+        ]
+      },
+      "properties": {
+        "name": "Spielplatz Franz-Gschnitzer-Promenade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42177354,
+          47.26722927
+        ]
+      },
+      "properties": {
+        "name": "Spielanlage Andechstraße"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39748258,
+          47.27559316
+        ]
+      },
+      "properties": {
+        "name": "Fischebrunnen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41869175,
+          47.27730572
+        ]
+      },
+      "properties": {
+        "name": "Reichenauerpromenade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39443766,
+          47.27474229
+        ]
+      },
+      "properties": {
+        "name": "Fallbachgasse"
+      }
+    }
+  ]
+}
