@@ -43,7 +43,14 @@ var miniMap = new L.Control.MiniMap(gkTirol, {
 
 }).addTo(map);
 
-//fullscreen
+ //LeaftletLocate Control
+        L.control.locate({
+        strings: {
+                title: "Eigenen Standort anzeigen"
+        },
+        drawCircle: false
+
+        }).addTo(map);
 
 
 
@@ -90,7 +97,14 @@ var miniMap2 = new L.Control.MiniMap(gkTirol2, {
 
 }).addTo(map2);
 
-//fullscreen
+ //LeaftletLocate Control
+        L.control.locate({
+        strings: {
+                title: "Eigenen Standort anzeigen"
+        },
+        drawCircle: false
+
+        }).addTo(map2);
 
 // Dritte map
 
@@ -134,4 +148,11 @@ var miniMap3 = new L.Control.MiniMap(gkTirol3, {
 
 }).addTo(map3);
 
-//fullscreen
+ //LeaftletLocate Control
+        L.control.locate({
+        strings: {
+                title: "Eigenen Standort anzeigen"
+        },
+        drawCircle: false
+
+        }).addTo(map3);
