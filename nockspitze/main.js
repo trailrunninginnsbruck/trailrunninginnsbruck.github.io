@@ -60,7 +60,7 @@ async function loadTrinkbrunnen(url, overlay) {
 
 // Instantiate elevation control
 const controlElevation = L.control.elevation({
-    theme: "bike-tirol",
+    theme: "trail-tirol",
     time: false,
     elevationDiv: "#profile",
     height: 300,
@@ -118,7 +118,7 @@ L.control.scale({
 
 // Instantiate elevation control
 const controlElevation2 = L.control.elevation({
-    theme: "bike-tirol",
+    theme: "trail-tirol",
     time: false,
     elevationDiv: "#profile2",
     height: 300,

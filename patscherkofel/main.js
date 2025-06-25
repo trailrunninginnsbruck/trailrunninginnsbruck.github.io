@@ -119,7 +119,7 @@ L.control.scale({
 
 // Instantiate elevation control
 const controlElevation2 = L.control.elevation({
-    theme: "bike-tirol",
+    theme: "trail-tirol",
     time: false,
     elevationDiv: "#profile2",
     height: 300,
@@ -176,7 +176,7 @@ L.control.scale({
 
 // Instantiate elevation control
 const controlElevation3 = L.control.elevation({
-    theme: "bike-tirol",
+    theme: "trail-tirol",
     time: false,
     elevationDiv: "#profile3",
     height: 300,
