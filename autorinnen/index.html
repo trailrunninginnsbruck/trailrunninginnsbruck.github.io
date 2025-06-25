@@ -11,26 +11,31 @@
 
 
     <style>
-        title {
-
-        }
-        header {
+       
+        article {
             display: flex;
             align-items: center;
             gap: 16px; 
             margin: auto;
         }
-        header img {
+        article img {
             height: 400px;
             width: auto;
             border-radius: 8px; 
             margin: auto;
         }
         figcaption {
-            text-align: center;
+            text-align: left;
+            
             font-weight: bold;
             margin-top: 8px;
-            font-size: 1.4em;
+            font-size: 1.8em;
+        }
+           h1 {
+            text-align: left;
+            font-weight: bold;
+            margin-top: 8px;
+            font-size: 3em;
         }
     </style>
 </head>
@@ -39,6 +44,13 @@
     
     <h1>Eure Webseitenersteller:Innen</h1>
     <header>
+        <figure>
+            <img src="data/images/gruppenfoto.jpg">
+            <figcaption>Guter Zeitpunkt für ein Commit!</figcaption>
+        </figure>
+    </header>
+    <article>
+
         <figure>
             <img src="data/images/hannah.jpeg">
             <figcaption>Hannah</figcaption>
@@ -51,7 +63,8 @@
         <figure>
             <img src="data/images/stephan.jpg">
             <figcaption>Stephan</figcaption>
-        </figure>    
-    </header>
+        </figure>
+
+    </article>
     
 </body>
