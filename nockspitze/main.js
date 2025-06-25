@@ -174,7 +174,7 @@ L.control.scale({
 
 // Instantiate elevation control
 const controlElevation3 = L.control.elevation({
-    theme: "bike-tirol",
+    theme: "trail-tirol",
     time: false,
     elevationDiv: "#profile3",
     height: 300,

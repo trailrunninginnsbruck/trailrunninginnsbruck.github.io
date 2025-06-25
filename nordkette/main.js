@@ -9,12 +9,10 @@ let map = L.map("map", {
     fullscreenControl: true,
 }).setView([nordkette.lat, nordkette.lng], 11);
 
-
 // overlays definieren
 let overlays = {
     Brunnen: L.featureGroup().addTo(map)
 };
-
 
 // / Layer control mit eGrundkarte Tirol und Standardlayern
 L.control.layers({
@@ -28,7 +26,6 @@ L.control.layers({
 L.control.scale({
     imperial: false,
 }).addTo(map);
-
 
 // Brunnen GeoJSON laden und ins Overlay einfügen
 async function loadTrinkbrunnen(url, overlay) {
@@ -57,18 +54,14 @@ async function loadTrinkbrunnen(url, overlay) {
     }).addTo(overlay);
 }
 
-
-
-
 // Instantiate elevation control
 const controlElevation = L.control.elevation({
-    theme: "bike-tirol",
+    theme: "trail-tirol",
     time: false,
     elevationDiv: "#profile",
     height: 300,
     //slope: true,
 }).addTo(map);
-
 
 // Load track 
 controlElevation.load("data/gpx/nk_kurz.gpx");
@@ -88,8 +81,6 @@ var miniMap = new L.Control.MiniMap(gkTirol, {
         drawCircle: false
 
         }).addTo(map);
-
-
 
 // Zweite map
 
